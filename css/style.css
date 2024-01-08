@@ -107,9 +107,9 @@ code{
   nav{
     display:inline-block;
     list-style:none;
-    position:sticky;  
+    position:relative;  
     border: 2px solid #333;
-    height:41vh;
+    height:0vh;
     width:80vh;
    }
    nav header{  
@@ -149,6 +149,7 @@ code{
     left:5%;
    }
    h1{
+    margin:3vh 0 0 0;
     color:white;
     background-color:black;
     display:flex;
