@@ -13,8 +13,8 @@ nav{
  list-style:none;
  position:fixed;  
  border: 2px solid #333;
- height:100vh;
- width:32vh; 
+ height:100%;
+ width:16%; 
 }
 nav header{  
  font-size:22px;
@@ -43,24 +43,16 @@ a:hover{
  color:white;
  background-color:darkslategray;
 }
-main-section{
- width:100vh;
-}
-#Introdución_a_Python header{
- display:flex;
- width:100vh;
- font-size:20px;
- position:relative;
- left:330px;
-}
+
 h1{
  color:white;
  background-color:black;
  display:flex;
- width:170vh;
+ width:100%;
  font-size:30px;
  position:relative;
- left:330px;}
+ left:17%;
+}
 h2{
  color:white;
  background-color:black;
@@ -68,29 +60,32 @@ h2{
  width:170vh;
  font-size:30px;
  position:relative;
- left:330px;
+ left:17%;
 }
 h3{
  display:flex;
  width:160vh;
  font-size:20px;
  position:relative;
- left:330px;
+ left:17%;
 }
 p{  
  display:flex;
  width:160vh;
  font-size:20px;
  position:relative;
- left:330px;
+ left:17%;
 }
-section li{
+li{
+  list-style:none;}
+
+section p{
  display:flex;
  width:150vh;
  font-size:20px;
  position:relative;
- left:330px;
- list-style:none;
+ left:17%;
+ 
 }
 code{
  padding:10px 0 0 20px;
@@ -100,104 +95,59 @@ code{
  width:100vh;
  font-size:20px;
  position:relative;
- left:330px;
+ left:17%;
  list-style:none;
 }
-@media(max-width: 1000px){
+
+@media screen and (max-width:900px){  
+
   nav{
-    display:inline-block;
-    list-style:none;
-    position:relative;  
-    border: 2px solid #333;
-    height:0vh;
-    width:80vh;
-   }
-   nav header{  
-    font-size:60px;
-    display:flex;
-    border: 2px solid #333;
-    text-decoration:none;
-    height:8vh;  
-    text-align:center;
-    padding:auto;
-    justify-content:center; 
-    align-items:center;
+    width: 100%; 
+    position: relative;
+    height: 100%;
+  } 
+  nav header{  
+    font-size:15px;   
+    height:5vh; 
+     
    }
    
    a{
-    color:black;
-    font-size:60px;
-    display:flex;
-    border: 2px solid #333;
-    text-decoration:none;
-    height:8vh;
-    justify-content:center; 
-    align-items:center;   
+    font-size:15px;   
+    height:5vh;    
    }
-   a:hover{
-    color:white;
-    background-color:darkslategray;
-   }
-   main-section{
-    width:0vh;
-   }
-   #Introdución_a_Python header{
-    display:flex;
-    width:100vh;
-    font-size:40px;
-    position:relative;
-    left:5%;
-   }
-   h1{
-    margin:3vh 0 0 0;
-    color:white;
-    background-color:black;
-    display:flex;
-    width:74vh;
-    font-size:60px;
-    position:relative;
-    left:3%;
+   
+  
+   h1{  
+    width:100%;
+    font-size:15px;    
+    left:1%;
   }
-   h2{
-    color:white;
-    background-color:black;
-    display:flex;
-    width:74vh;
-    font-size:60px;
-    position:relative;
-    left:3%;
+     
+
+   h2{   
+    width:100%;
+    font-size:15px;   
+    left:1%;
    }
-   h3{
-    display:flex;
-    width:74vh;
-    font-size:60px;
-    position:relative;
-    left:3%;
+   h3{    
+    width:100%;
+    font-size:15px;    
+    left:1%;
    }
-   p{  
-    display:flex;
-    width:74vh;
-    font-size:50px;
-    position:relative;
-    left:3%;
+
+   section p{   
+    width:100%;
+    font-size:15px;    
+    left:1%;
+    
    }
-   section li{
-    display:flex;
-    width:74vh;
-    font-size:50px;
-    position:relative;
-    left:3%;
-    list-style:none;
-   }
-   code{
-    padding:10px 0 0 20px;
-    color:white;
-    background-color:darkslategray;
-    display:flex;
-    width:74vh;
-    font-size:50px;
-    position:relative;
-    left:3%;
-    list-style:none;
-   }
+   code{ 
+    width: 100%;
+    font-size:15px;  
+    left:1%;
+   
+   } 
+ 
+
 }

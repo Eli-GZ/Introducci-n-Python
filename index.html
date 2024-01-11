@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   <meta chaset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Las Bases de Python</title>
- <link rel="stylesheet" href="./css/style.css">
-
+ <link rel="stylesheet" href="./css/style.css"> 
 </head>
 <body>
    <nav id="navbar">
@@ -24,21 +24,25 @@
 <p>Python se destaca por su sintaxis simple y legible, lo que lo hace ideal para principiantes. No utiliza llaves {} o puntos y coma ; para delimitar bloques de código. En su lugar, se utiliza la indentación.</p>
 <h3><b>2. Tipos de Datos:</b></h3>
      <ul>
-       <li><b>Números:</b> enteros, flotantes y complejos.</li>
-       <br>      
-       <li><b>Cadenas (Strings)</b>: secuencias de caracteres, pueden manipularse fácilmente.</li>
-       <br>
-       <li><b>Listas:</b> colecciones ordenadas y mutables de elementos.</li>
-       <br>
-       <li><b>Tuplas: </b>colecciones ordenadas e inmutables de elementos.</li>
-       <br>
-       <li><b>Diccionarios:</b> colecciones de pares clave-valor.</li>
+       <li><p><b>Números:</b> enteros, flotantes y complejos.</p></li>
+       
+       <li><p><b>Cadenas(Strings):</b>secuencias de caracteres, pueden manipularse fácilmente.</p></li>
+       
+       
+       <li><p><b>Listas:</b> colecciones ordenadas y mutables de elementos.</p></li>
+       
+       
+       <li><p><b>Tuplas:</b>colecciones ordenadas e inmutables de elementos.</p></li>
+       
+       
+       <li><p><b>Diccionarios:</b> colecciones de pares clave-valor.</p></li>
+       
        </ul>
 <h3><b>3. Control de Flujo:</b></h3>
      <ul>
-       <li><b>Condiciones:</b> enteros, flotantes y complejos.</li>
-       <br>
-       <li><b>Bucles:</b>"for" se usa para iterar sobre una secuencia, mientras que while se usa para bucles con una condición.</li>
+       <li><p><b>Condiciones:</b> enteros, flotantes y complejos.</p></li>
+       
+       <li><p><b>Bucles:</b>"for" se usa para iterar sobre una secuencia, mientras que while se usa para bucles con una condición.<p></p></li>
        </ul>
 <h3><b>4. Funciones:</b></h3>
 <p>Se definen con la palabra clave "def". Pueden tomar argumentos y devolver valores.</p>
@@ -122,11 +126,12 @@ for fruta in frutas:<br>
     print(i)<br><br></code>
     <h3>Usos comunes:</h3>
       <ul>
-       <li>Recorrer elementos de una lista, tupla, diccionario u otra estructura de datos.</li>
+       <li><p>Recorrer elementos de una lista, tupla, diccionario u otra estructura de datos.</p></li>
+      
+       <li><p>Ejecutar una acción un número específico de veces.</p></li>
+       
+       <li><p>Iterar sobre una secuencia numérica específica utilizando "range()".</p></li>
        <br>
-       <li>Ejecutar una acción un número específico de veces.</li>
-       <br>
-       <li>Iterar sobre una secuencia numérica específica utilizando "range()".</li>
        </ul>
        <p>El bucle "for" es una herramienta poderosa que permite iterar sobre elementos de una colección o ejecutar un bloque de código un número determinado de veces, facilitando la manipulación y procesamiento de datos en Python.</p>
     </section>
@@ -141,15 +146,15 @@ while contador < 5:<br>
     contador += 1<br><br></code>
     <h3>Características clave:</h3>
     <ul>
-       <li><b>Iteración con una condición dinámica:</b>Útil cuando no se sabe cuántas veces se repetirá un bloque de código, pero se conoce la condición de parada.</li>       
-       <br>
-       <li><b>Implementación de lógica compleja de control de flujo:</b>Permite ejecutar acciones basadas en una condición específica.</li>    
+       <li><p><b>Iteración con una condición dinámica:</b>Útil cuando no se sabe cuántas veces se repetirá un bloque de código, pero se conoce la condición de parada.</p></li> 
+       <li><p><b>Implementación de lógica compleja de control de flujo:</b>Permite ejecutar acciones basadas en una condición específica.</p></li>    
        </ul>
     <h3>Usos comunes:</h3>
     <ul>
-       <li><b>Ejecución basada en la condición:</b>El bloque de código se repite mientras la condición sea verdadera.</li>       
-       <br>
-       <li><b>Posible riesgo de bucle infinito:</b>Si la condición nunca se vuelve falsa, puede provocar un bucle infinito.</li>    
+       <li><p><b>Ejecución basada en la condición:</b>El bloque de código se repite mientras la condición sea verdadera.</p></li>      
+      
+       <li><p><b>Posible riesgo de bucle infinito:</b>Si la condición nunca se vuelve falsa, puede provocar un bucle infinito.</p></li> 
+       <br>   
        </ul>
       <p>El bucle "while" es una herramienta valiosa para ejecutar un bloque de código mientras se cumpla una condición, proporcionando flexibilidad en la lógica de control de flujo en Python. Sin embargo, es importante controlar la condición para evitar bucles infinitos no deseados.</p>          
     </section>
@@ -169,19 +174,21 @@ print(mensaje)<br><br>
       </code>
    <h3>Características clave:</h3> 
    <ul>
-       <li><b>Reutilización de código: </b>Las funciones permiten escribir código una vez y usarlo múltiples veces.</li>       
+       <li><p><b>Reutilización de código: </b>Las funciones permiten escribir código una vez y usarlo múltiples veces.</p></li>       
+       
+       <li><p><b>Argumentos:</b>Pueden tomar argumentos que se utilizan dentro de la función para realizar operaciones.</p></li>    
+       
+       <li><p><b>Valores de retorno:</b>Pueden devolver valores utilizando la palabra clave "return".</p></li>   
        <br>
-       <li><b>Argumentos:</b>Pueden tomar argumentos que se utilizan dentro de la función para realizar operaciones.</li>    
-       <br>
-       <li><b>Valores de retorno:</b>Pueden devolver valores utilizando la palabra clave "return".</li>   
        </ul>
   <h3>Usos comunes:</h3> 
    <ul>
-       <li><b>Abstracción:</b>Ayudan a dividir un programa en partes más pequeñas y manejables.</li>       
+       <li><p><b>Abstracción:</b>Ayudan a dividir un programa en partes más pequeñas y manejables.</p></li>       
+       
+       <li><p><b>Reutilización de código:</b>Permiten utilizar el mismo conjunto de operaciones en diferentes partes del programa.</p></li>    
+       
+       <li><p><b>Modularidad:</b>Facilitan la organización y comprensión del código al dividirlo en funciones específicas.</p></li>   
        <br>
-       <li><b>Reutilización de código:</b>Permiten utilizar el mismo conjunto de operaciones en diferentes partes del programa.</li>    
-       <br>
-       <li><b>Modularidad:</b>Facilitan la organización y comprensión del código al dividirlo en funciones específicas.</li>   
        </ul>  
        <p>Las funciones en Python son una herramienta fundamental para organizar y reutilizar código, lo que mejora la legibilidad, mantenibilidad y eficiencia de un programa.</p> 
     </section>
