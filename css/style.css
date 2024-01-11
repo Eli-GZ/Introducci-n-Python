@@ -98,7 +98,57 @@ code{
  left:17%;
  list-style:none;
 }
+@media screen and (max-width:1440px){  
 
+  nav{
+    width: 16%;   
+    height: 100%;
+  } 
+  nav header{  
+    font-size:15px;   
+    height:5vh; 
+     
+   }
+   
+   a{
+    font-size:15px;   
+    height:5vh;    
+   }
+   
+  
+   h1{  
+    width:100%;
+    font-size:15px;    
+    left:21%;
+  }
+     
+
+   h2{   
+    width:100%;
+    font-size:15px;   
+    left:21%;
+   }
+   h3{    
+    width:100%;
+    font-size:15px;    
+    left:21%;
+   }
+
+   section p{   
+    width:100%;
+    font-size:15px;    
+    left:21%;
+    
+   }
+   code{ 
+    width: 100%;
+    font-size:15px;  
+    left:21%;
+   
+   } 
+ 
+
+}
 @media screen and (max-width:900px){  
 
   nav{
