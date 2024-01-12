@@ -130,15 +130,20 @@ code{
    }
    h3{    
     width:100%;
-    font-size:15px;    
+    font-size:20px;    
     left:21%;
    }
 
    section p{   
-    width:100%;
-    font-size:15px;    
+    width:75%;
+    font-size:16px;    
     left:21%;
     
+   }
+   p{  
+    width:80%;
+    font-size:16px;    
+    left:21%;
    }
    code{ 
     width: 100%;
